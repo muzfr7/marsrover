@@ -1,0 +1,12 @@
+{
+    "name": "metromarket/code-test-mars",
+    "autoload": {
+        "psr-4": {
+            "Mars\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
