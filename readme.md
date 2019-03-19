@@ -7,6 +7,7 @@ root
 ├── src
 │   ├── Rover.php
 │   ├── RoverInterface.php
+│   ├── CommandFactory.php
 │   ├── Move.php
 │   ├── TurnLeft.php
 │   ├── TurnRight.php

@@ -52,19 +52,7 @@ class Rover implements RoverInterface
     public function execute(string $commands): string
     {
         foreach (str_split($commands) as $c) {
-            switch ($c) {
-                case Command::LEFT:
-                    $this->direction = (new TurnLeft())->execute($this);
-                    break;
-                case Command::RIGHT:
-                    $this->direction = (new TurnRight())->execute($this);
-                    break;
-                case Command::MOVE:
-                    $this->coordinate = (new Move())->execute($this);
-                    break;
-                default:
-                    throw new \Exception('Unsupported command given: ' . $c);
-            }
+            (new CommandFactory())->execute($c, $this);
         }
 
         return $this->getPositionWithDirection();
