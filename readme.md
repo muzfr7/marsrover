@@ -1,4 +1,5 @@
-# My solution for `Mars Rover` problem
+## Mars Rover
+My solution for Mars Rover problem
 
 ### Prerequisites
 PHP7.2, Composer, Git and a Terminal
