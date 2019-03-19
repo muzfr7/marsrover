@@ -18,4 +18,4 @@ $ ./vendor/bin/phpunit --testdox
 
 ---
 
-Please feel free to suggest if you find any issue or design problem!
+Please feel free to share your feedback if you find any design related issue!
