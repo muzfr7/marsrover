@@ -1,5 +1,5 @@
 {
-    "name": "metromarket/code-test-mars",
+    "name": "muzfr7/marsrover",
     "autoload": {
         "psr-4": {
             "Mars\\": "src/"
