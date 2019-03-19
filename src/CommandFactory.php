@@ -12,6 +12,14 @@ namespace Mars;
  */
 class CommandFactory
 {
+    /**
+     * Executes given command on the rover
+     *
+     * @param  string $command
+     * @param  RoverInterface $rover
+     *
+     * @return string
+     */
     public function execute(string $command, RoverInterface $rover)
     {
         switch ($command) {
